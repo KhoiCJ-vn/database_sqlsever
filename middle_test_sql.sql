@@ -206,6 +206,7 @@ GO
 -- Thêm thuộc tính Sex
 ALTER TABLE Pilots 
 ADD Sex Char(1); 
+GO
 
 -- Liệt kê tất cả các thuộc tính của bảng Pilots thì ta phải nhớ INFORMATION_SCHEMA.COLUMNS sẽ chứa các thông tin về thuộc tính của chính bảng đó 
 SELECT *
